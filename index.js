@@ -303,7 +303,7 @@ module.exports = function LanceMeOniisama(mod) {
 			blockTimer = mod.setTimeout(() => { blockActive = 0 }, 500)
 			instantBlockActive = 0
 
-			if (finish[SKILL_COUNTER] != false) {
+		/*	if (finish[SKILL_COUNTER] != false) {
 				mod.toClient('S_ACTION_END', 5, {
 				  gameId: mod.game.me.gameId,
 				  loc: {
@@ -317,7 +317,7 @@ module.exports = function LanceMeOniisama(mod) {
 				  type: 10,
 				  id: atkid[event.skill.id],
 				});
-			  }
+			  } */
 		}
 
 		if (event.skill.id == SKILL_BLOCK && event.press == true) {
@@ -327,7 +327,7 @@ module.exports = function LanceMeOniisama(mod) {
 			blockActive = 1
 			instantBlockActive = 1
 
-			blockTimer = setTimeout(function (event) {
+		/*	blockTimer = setTimeout(function (event) {
 				mod.toClient('S_ACTION_STAGE', 9, {
 				  gameId: mod.game.me.gameId,
 				  loc: {
@@ -348,7 +348,7 @@ module.exports = function LanceMeOniisama(mod) {
 				  target: 0n,
 				  animSeq: [],
 				});
-			  }, 350, event);
+			  }, 350, event); */
 		}
 		if (event.press == true) {
 			lastSkill = event.skill.id
@@ -356,7 +356,7 @@ module.exports = function LanceMeOniisama(mod) {
 		}
 	})
 	
-	mod.hook('C_START_SKILL', 7, { order: Number.NEGATIVE_INFINITY, filter: {fake: null} }, event => {
+	mod.hook('C_START_SKILL', 7, { order: -200, filter: {fake: null} }, event => {
 		if (!enabled) return
 		xLoc = event.loc.x
 		yLoc = event.loc.y
