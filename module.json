@@ -1,0 +1,11 @@
+{
+    "disableAutoUpdate": false,
+    "name": "lancer",
+    "options": {
+        "niceName": "mel-lancer",
+        "reloadable": true
+    },
+    "author": "Yang#0966",
+    "description": "cool mod made by yang",
+    "servers": ["https://raw.githubusercontent.com/yangwarr/lancer/master/"]
+}

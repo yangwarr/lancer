@@ -1,0 +1,27 @@
+{
+    "files": {
+        "config.json": "3234867309441de5953edb479d5556311b85dd6bd5cee340291a29a140cd4c22",
+        "index.js": "294348a06151a8eaf965a7c6edd377aa9900f821d818775bf7d49e910065bc6f",
+        "module.json": "dfcf69168e68303e1e536d506590a60554021e75ebbcee39f9d72946640e6e9e",
+        "settingsStructure.js": "4e387b26b3c448033ba4bfea6d3582664ad386d249feab8ffbda2f47a19cebd7"
+    },
+    "defs": {
+        "C_NOTIFY_LOCATION_IN_ACTION": 4,
+        "C_PRESS_SKILL": 4,
+        "C_START_SKILL": 7,
+        "C_START_TARGETED_SKILL": 7,
+        "S_ACTION_END": 5,
+        "S_ACTION_STAGE": 9,
+        "S_CREST_APPLY": 2,
+        "S_CREST_INFO": 2,
+        "S_DEFEND_SUCCESS": 3,
+        "S_EACH_SKILL_RESULT": 14,
+        "S_LEARN_EP_PERK": 1,
+        "S_LOAD_EP_INFO": 2,
+        "S_LOGIN": 14,
+        "S_PLAYER_STAT_UPDATE": 14,
+        "S_RP_SKILL_POLISHING_LIST": 1,
+        "S_START_COOLTIME_SKILL": 3,
+        "S_SYSTEM_MESSAGE": 1
+    }
+}
